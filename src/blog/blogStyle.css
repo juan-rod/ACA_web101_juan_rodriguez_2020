@@ -1,0 +1,9 @@
+.main-container {
+  border: 1px solid red;
+}
+header {
+  border: 1px solid blue;
+}
+nav {
+  border: 1px solid green;
+}
