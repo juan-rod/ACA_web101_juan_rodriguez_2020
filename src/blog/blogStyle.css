@@ -2,8 +2,12 @@
   border: 1px solid red;
 }
 header {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+}
+section.aboutme h6{
+
 }
 nav {
   border: 1px solid green;
 }
+/* hey this is a comment */
