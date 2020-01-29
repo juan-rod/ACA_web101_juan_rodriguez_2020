@@ -1,0 +1,70 @@
+.container {
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 100%;
+}
+ul {
+  /* border: 1px solid blue; */
+  list-style-type: none;
+  margin: 0;
+  height: 500px;
+  width: 100%;
+  background: rgb(0, 255, 255);
+  padding: 0;
+}
+li {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  background: rgba(223, 42, 102, 0.801);
+  display: block;
+  font-family: 'Bangers', cursive;
+  font-size: 55px;
+}
+.fa-id-badge {
+  font-size: 42px;
+  color: white;
+}
+@media (min-width: 576px) {
+  body {
+    background: pink;
+  }
+  li {
+    display: inline-block;
+    background: rgba(42, 60, 223, 0.801);
+    border-radius: 50%;
+    animation: bounce 500ms ease-in;
+  }
+}
+
+@media (min-width: 992px) {
+  li {
+    display: block;
+    background: rgba(160, 223, 42, 0.801);
+    border-radius: 50%;
+  }
+}
+@keyframe {
+  bounce
+}
+/* Extra Small and up (Portrait Phones) */
+
+/* Small and up (Landscape Phones) */
+/* @media (min-width: 576px) {
+
+} */
+
+/* Medium and up (Tablets) */
+/* @media (min-width: 768px) {
+
+} */
+
+/* Large and up (Desktops) */
+/* @media (min-width: 992px) {
+
+} */
+
+/* Extra Large and up (Wide Screen Desktops) */
+/* @media (min-width: 1200px) {
+
+} */
