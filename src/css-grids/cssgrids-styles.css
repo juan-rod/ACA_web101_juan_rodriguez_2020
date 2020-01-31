@@ -1,0 +1,22 @@
+main.main-container {
+  background: pink;
+  border: 1px solid black;
+  height: 500px;
+  width: 700px;
+  display: grid;
+  grid-template-columns: 10% repeat(8, 1fr) 10%;
+  grid-template-rows: 80px 1fr 150px 50px 120px;
+}
+.image {
+  border: 1px solid black;
+  background: red;
+  grid-column: 8/10;
+  grid-row: 2/4;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+h1 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
