@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+.main-container {
+  /* border: 2px solid red; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto Mono', monospace;
+  background: #000740;
+  color: ghostwhite;
+}
+/* ~~~ NAV ~~~*/
+nav{
+  /* border:1px solid green; */
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+nav div.logo {
+  /* border:1px solid red; */
+  flex: 1;
+}
+nav ul {
+  /* border:1px solid red; */
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  justify-content: space-between;
+}
+main{
+  /* border:1px solid pink; */
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px 0 20px;
+}
+main .portfolio {
+  height: 300px;
+  /* border: 2px solid palevioletred; */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .portfolio-img img {
+  height: 100%;
+}
+main .portfolio-content {
+  flex-direction: column;
+}
+main .portfolio-content p:nth-of-type(1) {
+  font-size: 34px;
+}
+main .portfolio-content p:nth-of-type(2) {
+  text-transform: uppercase;
+  letter-spacing: 2.8;
+}
+main .portfolio-content button {
+  font-size: 16px;
+  margin: 20px 0 0;
+  border: 2px solid rgba(39, 36, 36, 0.729);
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: ghostwhite;
+}
+main .portfolio-content button:hover {
+  box-shadow: 7px 9px 9px 0px rgb(68, 67, 67);
+  transform: translateY(-1px);
+  cursor: pointer;
+}
+footer{
+  /* border:1px solid blue; */
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
